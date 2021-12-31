@@ -1,0 +1,19 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@playwright/test": "^1.17.1"
+  },
+  "scripts": {
+    "test": "playwright test --config=playwright.config.ts",
+    "test_chrome": "playwright test --project=chromium"
+  },
+  "author": "",
+  "license": "ISC"
+}
